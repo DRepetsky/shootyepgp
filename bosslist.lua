@@ -51,7 +51,7 @@ local zones = {
     {"Baron Geddon", 40},
     {"Golemagg the Incinerator", 40},
     {"Sulfuron Harbinger", 40},
-    {"Majordomo Executus", 40, {
+    {"Majordomo Executus", 100, {
       "The Eye of Divinity",
       "Ancient Petrified Leaf",
       "Core Forged Greaves",
@@ -65,7 +65,7 @@ local zones = {
       "Fireproof Cloak",
       "Fireguard Shoulders"
     }},
-    {"Ragnaros", 100},
+    {"Ragnaros", 150},
     -- New Bosses:
     {"Incindis", 40},
     {"Basalthar", 40},
