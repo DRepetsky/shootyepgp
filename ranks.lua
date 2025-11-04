@@ -1,8 +1,8 @@
 sepgp.rank_prio = {
-	{'Guild Master(MS)', 'Officer(MS)', 'Veteran(MS)', 'Core Raider(MS)'},
-	{'Guild Master(OS)', 'Officer(OS)', 'Veteran(OS)', 'Core Raider(OS)'},
-	{'Raider(MS)', 'Alt(MS)>5000', 'Cossack(MS)>100'},
-	{'Raider(OS)', 'Alt(OS)>5000', 'Cossack(OS)>100'},
+	{'Guild Master(MS)', 'Officer(MS)', 'Core Raider(MS)'},
+	{'Guild Master(OS)', 'Officer(OS)', 'Core Raider(OS)'},
+	{'Veteran(MS)', 'Raider(MS)', 'Alt(MS)>5000', 'Cossack(MS)>100'},
+	{'Veteran(OS)', 'Raider(OS)', 'Alt(OS)>5000', 'Cossack(OS)>100'},
 	{'Cossack(MS)', 'Newcomer(MS)', 'Alt(MS)', 'Muted(MS)'},
 	{'Cossack(OS)', 'Newcomer(OS)', 'Alt(OS)', 'Muted(OS)'},
 }
