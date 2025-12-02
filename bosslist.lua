@@ -1,8 +1,6 @@
 local zones = {
-  ["Durotar"] = {
-    {"Elder Mottled Boar", 0}
-  },
-
+  
+-- >>> KARA 10 <<<
   ["Tower of Karazhan"] = {
     {"Master Blacksmith Rolfen", 0},
     {"Brood Queen Araxxna", 0},
@@ -11,7 +9,8 @@ local zones = {
     {"Lord Blackwald II", 0},
     {"Moroes", 0}
   },
-
+  
+-- ** ZG **
   ["Zul'Gurub"] = {
     {"High Priestess Jeklik", 0},
     {"High Priest Venoxis", 0},
@@ -32,7 +31,8 @@ local zones = {
     {"Jin'do the Hexxer", 0},
     {"Hakkar", 0}
   },
-
+  
+-- ** AQ 20 **
   ["Ruins of Ahn'Qiraj"] = {
     {"Kurinnaxx", 0},
     {"General Rajaxx", 0},
@@ -42,7 +42,17 @@ local zones = {
     {"Ossirian the Unscarred", 0}
   },
 
+-- >>> ONY <<<
+  ["Onyxia's Lair"] = {
+    {"Onyxia", 250}
+  },
+  
+-- >>> MC <<<
   ["Molten Core"] = {
+    {"Incindis", 40}, -- NEW boss
+    {"Basalthar", 40}, -- NEW boss
+    {"Smoldaris", 40}, -- NEW boss
+    {"Sorcerer-Thane Thaurissan", 40} -- NEW boss
     {"Lucifron", 40},
     {"Magmadar", 40},
     -- {"Gehennas", 40}, - boss was removed
@@ -51,7 +61,7 @@ local zones = {
     {"Baron Geddon", 40},
     {"Golemagg the Incinerator", 40},
     {"Sulfuron Harbinger", 40},
-    {"Majordomo Executus", 100, {
+    {"Majordomo Executus", 40, {
       "The Eye of Divinity",
       "Ancient Petrified Leaf",
       "Core Forged Greaves",
@@ -65,14 +75,10 @@ local zones = {
       "Fireproof Cloak",
       "Fireguard Shoulders"
     }},
-    {"Ragnaros", 150},
-    -- New Bosses:
-    {"Incindis", 40},
-    {"Basalthar", 40},
-    {"Smoldaris", 40},
-    {"Sorcerer-Thane Thaurissan", 40}
+    {"Ragnaros", 80},
   },
-
+  
+-- >>> BWL <<<
   ["Blackwing Lair"] = {
     {"Razorgore the Untamed", 60},
     {"Vaelastrasz the Corrupt", 60},
@@ -81,55 +87,78 @@ local zones = {
     {"Ebonroc", 60},
     {"Flamegor", 60},
     {"Chromaggus", 60},
-    {"Nefarian", 200}
+    {"Nefarian", 120}
   },
-
-  ["Onyxia's Lair"] = {
-    {"Onyxia", 200}
-  },
-
+  
+-- >>> AQ40 <<<
   ["Ahn'Qiraj"] = {
     {"The Prophet Skeram", 80},
     {"Vem", 80},
     {"Lord Kri", 80},
     {"Princess Yauj", 80},
-    {"Battleguard Sartura", 80},
+    {"Battleguard Sartura", 80}
     {"Fankriss the Unyielding", 80},
     {"Viscidus", 80},
     {"Princess Huhuran", 80},
-    {"Emperor Vek'lor", 120},
-    {"Emperor Vek'nilash", 120},
-    {"Ouro", 160},
-    {"C'Thun", 300}
+    {"Emperor Vek'lor", 80},
+    {"Emperor Vek'nilash", 80},
+    {"Ouro", 80},
+    {"C'Thun", 160}
   },
-
+  
+-- >>> ES <<<
+  ["Emerald Sanctum"] = {
+    {"Erennius", 200}
+    {"Solnius the Awakener", 200}
+    {"Favor of Erennius", 200, { -- HM chest
+        "Naturecaller's Tunic",
+        "Choker of the Emerald Lord",
+        "Breath of Solnius",
+        "Crystal Sword of the Blossom",
+        "Nature's Call",
+        "Jadestone Protector",
+      }},
+-- >>> NAXX <<<
   ["Naxxramas"] = {
-    {"Patchwerk", 160},
-    {"Grobbulus", 160},
-    {"Gluth", 160},
-    {"Thaddius", 160},
-    {"Anub'Rekhan", 160},
-    {"Grand Widow Faerlina", 160},
-    {"Maexxna", 160},
-    {"Noth the Plaguebringer", 160},
-    {"Heigan the Unclean", 160},
-    {"Loatheb", 160},
-    {"Instructor Razuvious", 160},
-    {"Gothik the Harvester", 160},
-    {"Four Horseman", 320, {
+    {"Patchwerk", 100},
+    {"Grobbulus", 100},
+    {"Gluth", 100},
+    {"Thaddius", 100},
+    {"Anub'Rekhan", 100},
+    {"Grand Widow Faerlina", 100},
+    {"Maexxna", 100},
+    {"Noth the Plaguebringer", 100},
+    {"Heigan the Unclean", 100},
+    {"Loatheb", 100},
+    {"Instructor Razuvious", 100},
+    {"Gothik the Harvester", 100},
+    {"Four Horseman", 100, {
       "Desecrated Breastplate",
       "Desecrated Tunic",
       "Desecrated Robe"
     }},
   },
-
   ["Sapphiron's Lair"] = {
-    {"Sapphiron", 320},
+    {"Sapphiron", 100},
+  },
+  ["Kel'Thuzad Chamber"] = {
+    {"Kel'Thuzad", 200}
   },
   
-  ["Kel'Thuzad Chamber"] = {
-    {"Kel'Thuzad", 640}
-  }
+-- >>> KARA 40 <<<
+  ["Tower of Karazhan"] = {
+    {"Keeper Gnarlmoon", 250},
+    {"Ley-Watcher Incantagos", 250},
+    {"Anomalus", 250},
+    {"Ech of Medivh", 250},
+    {"King", 250},
+  },
+   ["The Rock of Desolation"] = {
+    {"Sanv Tas`dal", 250}
+    {"Rpturan the Broken", 250}
+    {"Kruul", 250},
+    {"Mephistroth", 500},
+  },
 }
 
 sepgp.boss_list = zones
