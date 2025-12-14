@@ -52,7 +52,7 @@ local zones = {
     {"Incindis", 40}, -- NEW boss
     {"Basalthar", 40}, -- NEW boss
     {"Smoldaris", 40}, -- NEW boss
-    {"Sorcerer-Thane Thaurissan", 40} -- NEW boss
+    {"Sorcerer-Thane Thaurissan", 40}, -- NEW boss
     {"Lucifron", 40},
     {"Magmadar", 40},
     -- {"Gehennas", 40}, - boss was removed
@@ -108,8 +108,8 @@ local zones = {
   
 -- >>> ES <<<
   ["Emerald Sanctum"] = {
-    {"Erennius", 200}
-    {"Solnius the Awakener", 200}
+    {"Erennius", 200},
+    {"Solnius the Awakener", 200},
     {"Favor of Erennius", 200, { -- HM chest
         "Naturecaller's Tunic",
         "Choker of the Emerald Lord",
@@ -117,7 +117,9 @@ local zones = {
         "Crystal Sword of the Blossom",
         "Nature's Call",
         "Jadestone Protector",
-      }},
+      }
+		}
+	},
 -- >>> NAXX <<<
   ["Naxxramas"] = {
     {"Patchwerk", 100},
@@ -153,7 +155,7 @@ local zones = {
     {"Ech of Medivh", 250},
     {"King", 250},
   },
-   ["The Rock of Desolation"] = {
+  ["The Rock of Desolation"] = {
     {"Sanv Tas`dal", 250},
     {"Rpturan the Broken", 250},
     {"Kruul", 250},
