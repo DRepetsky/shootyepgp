@@ -96,7 +96,7 @@ local zones = {
     {"Vem", 80},
     {"Lord Kri", 80},
     {"Princess Yauj", 80},
-    {"Battleguard Sartura", 80}
+    {"Battleguard Sartura", 80},
     {"Fankriss the Unyielding", 80},
     {"Viscidus", 80},
     {"Princess Huhuran", 80},
@@ -154,8 +154,8 @@ local zones = {
     {"King", 250},
   },
    ["The Rock of Desolation"] = {
-    {"Sanv Tas`dal", 250}
-    {"Rpturan the Broken", 250}
+    {"Sanv Tas`dal", 250},
+    {"Rpturan the Broken", 250},
     {"Kruul", 250},
     {"Mephistroth", 500},
   },
