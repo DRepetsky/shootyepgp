@@ -152,7 +152,7 @@ local zones = {
     {"Keeper Gnarlmoon", 250},
     {"Ley-Watcher Incantagos", 250},
     {"Anomalus", 250},
-    {"Ech of Medivh", 250},
+    {"Echo of Medivh", 250},
     {"King", 250},
   },
   ["The Rock of Desolation"] = {
