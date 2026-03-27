@@ -140,10 +140,8 @@ local zones = {
       "Desecrated Robe"
     }},
   },
-  ["Sapphiron's Lair"] = {
+  ["The Upper Necropolis"] = {
     {"Sapphiron", 100},
-  },
-  ["Kel'Thuzad Chamber"] = {
     {"Kel'Thuzad", 200}
   },
   

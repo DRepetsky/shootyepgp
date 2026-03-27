@@ -12,8 +12,8 @@ local prices = {
    [55486] = {182,"T3"}; -- 819 GP T3.5 Shoulders (Paladin, Hunter Rogue, Shaman, Mage)
    [55489] = {182,"T3"}; -- 819 GP T3.5 Leggs (Warrior, Priest, Warlock, Druid)
    [55490] = {182,"T3"}; -- 819 GP T3.5 Leggs (Paladin, Hunter Rogue, Shaman, Mage)
-   [55489] = {182,"T3"}; -- 819 GP T3.5 Head (Warrior, Priest, Warlock, Druid)
-   [55490] = {182,"T3"}; -- 819 GP T3.5 Head (Paladin, Hunter Rogue, Shaman, Mage)
+   [55487] = {182,"T3"}; -- 819 GP T3.5 Head (Warrior, Priest, Warlock, Druid)
+   [55488] = {182,"T3"}; -- 819 GP T3.5 Head (Paladin, Hunter Rogue, Shaman, Mage)
    [55491] = {182,"T3"}; -- 819 GP T3.5 Chest (Warrior, Priest, Warlock, Druid)
    [55492] = {182,"T3"}; -- 819 GP T3.5 Chest (Paladin, Hunter Rogue, Shaman, Mage)
    [55482] = {400,"T3"}; -- 1800 GP T3.5 Neck
@@ -48,8 +48,7 @@ local prices = {
    [55096] = {160,"T3"}; -- 720 GP Phase-shifting Crossbow
    [55279] = {100,"T3"}; -- 450 GP Branch of Resolute Defense
    [55093] = {300,"T3"}; -- 1350 GP Remains of Overwhelming Power
-   --[55106] = {100,"T3"}; -- 450 GP Remains of Overwhelming Power
-   [55097] = {160,"T3"}; -- 720 GP Bindings of Contained Magic
+   [55106] = {160,"T3"}; -- 720 GP Bindings of Contained Magic
    [55098] = {100,"T3"}; -- 450 GP Choker of Chromatic Power
 
     --- 4 BOSS - Echo ---
